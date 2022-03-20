@@ -1,11 +1,15 @@
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+searching = int(input("Ingrese un numero para buscar: "))
 
 
-def buscar(lista):
-    search = int(input("Ingrese un numero para buscar "))
-    for i in range(len(lista)):
-        if (lista[i] == search):
-            print("El numero " + str(search) + " esta en el indice " + str(i))
+def search(list, searching):
+    for i in range(len(list)):
+        if list[i] == searching:
+            print("El numero " + str(searching) +
+                  " se encuentra en la posicion " + str(i))
+            break
+    else:
+        print("El numero " + str(searching) + " no se encuentra en la lista")
 
 
-buscar(lista)
+search(list, searching)
