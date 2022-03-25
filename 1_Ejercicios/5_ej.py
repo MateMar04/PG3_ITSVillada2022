@@ -1,11 +1,11 @@
-def is_palindrome(word):
+def is_palindrome(word: str):
     if word == word[::-1]:
         return True
     else:
         return False
 
 
-word = input("Ingrese una palabra: ")
+word: str = input("Ingrese una palabra: ")
 
 is_palindrome(word)
 

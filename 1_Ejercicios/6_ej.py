@@ -1,8 +1,8 @@
-phrase = input("Ingrese una frase: ")
+phrase: str = input("Ingrese una frase: ")
 
 
-def count_vowels(phrase):
-    vowels = 0
+def count_vowels(phrase: str):
+    vowels: int = 0
     for i in phrase:
         if i in 'aeiouAEIOU':
             vowels += 1
