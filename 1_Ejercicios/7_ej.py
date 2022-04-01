@@ -14,13 +14,13 @@ def convert_to_list(number: int):
 
 def is_step(list: List[int]):
     for i in range(len(list)):
-        if(list[i] == list[i+1] + 1 or list[i] == list[i+1] - 1):
+        if list[i] == list[i + 1] + 1 or list[i] == list[i + 1] - 1:
             return True
         else:
             return False
 
 
-if(is_step(convert_to_list(number))):
+if is_step(convert_to_list(number)):
     print("El numero " + str(number) + " es un numero step")
 else:
     print("El numero " + str(number) + " no es un numero step")

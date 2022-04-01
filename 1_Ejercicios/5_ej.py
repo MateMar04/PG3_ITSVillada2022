@@ -9,7 +9,7 @@ word: str = input("Ingrese una palabra: ")
 
 is_palindrome(word)
 
-if (is_palindrome):
+if is_palindrome:
     print("La palabra " + word + " es un palindromo")
 else:
     print("La palabra " + word + " no es un palindromo")

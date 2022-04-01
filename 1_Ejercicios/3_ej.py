@@ -1,7 +1,7 @@
 def draw(height: int, wide: int, caracter: str):
     for i in range(height):
         for j in range(wide):
-            print(caracter, end='')
+            print(caracter, end="")
         print()
 
 
