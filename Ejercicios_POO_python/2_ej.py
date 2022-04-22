@@ -13,6 +13,7 @@ class Alumno():
         else:
             print(f"{self.name} esta desaprobado con un {self.grade}")
 
+
 alumno1 = Alumno()
 alumno1.inicializar("Mateo", 9)
 alumno1.is_regular()
