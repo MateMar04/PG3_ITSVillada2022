@@ -11,9 +11,14 @@ class Empleado(Persona):
     def __init__(self, name, age, salary):
         super().__init__(name, age)
         self.salary = salary
+        self.pay_taxes()
 
     def print_data(self):
         print(f"{self.name}, {self.age} años, salario ${self.salary}")
+
+    def pay_taxes(self):
+        if (self.salary > 3000):
+            print(f"El empleado {self.name} debe pagar impuestos")
 
 
 continue_flag = True
@@ -35,4 +40,3 @@ while continue_flag:
         continue_flag = False
     else:
         print("Ingrese opccion correcta")
-
