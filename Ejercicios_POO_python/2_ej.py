@@ -1,7 +1,3 @@
-from ast import alias
-from re import A
-
-
 class Alumno():
     def inicializar(self, name, grade):
         self.name = name
