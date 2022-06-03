@@ -1,0 +1,3 @@
+[submodule "OpenCV-Project"]
+	path = OpenCV-Project
+	url = https://github.com/MateMar04/OpenCV-Project.git
