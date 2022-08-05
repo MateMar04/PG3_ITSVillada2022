@@ -1,3 +1,6 @@
 [submodule "OpenCV-Project"]
 	path = OpenCV-Project
 	url = https://github.com/MateMar04/OpenCV-Project.git
+[submodule "Palito_Selva"]
+	path = Palito_Selva
+	url = https://github.com/MateMar04/Palito_Selva.git
